@@ -1,6 +1,6 @@
-package com.sysnormal.libs.db.entities.integrations.consulta_entities;
+package com.sysnormal.data.integrations.consulta_data_model.entities;
 
-import com.sysnormal.libs.db.entities.base_entities.BaseEntity;
+import com.sysnormal.data.base_data_model.entities.BaseEntity;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -30,8 +30,4 @@ public class GtinProduto extends BaseEntity {
     @Column(name = "UPDATED_AT", scale = 6)
     private LocalDateTime updatedAt;
 
-    protected static final long TABLE_ID = 39000;
-    public static long getTableId() {
-        return TABLE_ID;
-    }
 }
