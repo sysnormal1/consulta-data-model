@@ -6,7 +6,7 @@
 	<!--<groupId>com.sysnormal.data.integrations</groupId>-->
 	<groupId>io.github.sysnormal1.data.integrations</groupId>
 	<artifactId>consulta-data-model</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>consulta-data-model</name>
 	<description>Sysnormal database consulta integration entities library</description>
 	<url>https://github.com/sysnormal1/consulta-data-model</url>
@@ -90,7 +90,7 @@
 		<dependency>
 			<groupId>io.github.sysnormal1.data</groupId>
 			<artifactId>base-data-model</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>0.0.1</version>
 		</dependency>
 	</dependencies>
 
